@@ -1,0 +1,19 @@
+.cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+// выбрать все карточки после cw
+.cards-wrapper>* {
+    flex-shrink: 0;
+}
+
+// Отступ между cw и каком-то любым элементом после него
+.cards-wrapper+* {
+    margin-top: 30px;
+}

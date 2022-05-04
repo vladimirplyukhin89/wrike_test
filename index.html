@@ -15,24 +15,70 @@
 </head>
 
 <body>
-    <div class="modal">
+
+    <section class="modal">
         <div class="modal__header">
-            <div class="title-1">
+            <h1 class="title-1">
                 Choose a template
-            </div>
+            </h1>
         </div>
+
         <div class="modal__content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit, officiis dolore quasi laboriosam eius
+            <h2 class="visially-hidden"></h2>
+
+            <!-- cards-wrapper -->
+            <div class="cards-wrapper">
+
+                <input type="radio" name="card" id="card-1" class="radio-select">
+                <label for="card-1" class="card">
+                    <div class="card__header">
+                        <svg class="card__icon" width="30" height="30">
+                            <use href="./img/_sprite.svg#icon-calendar"></use>
+                        </svg>
+                    </div>
+
+                    <div class="card__body">
+
+                        <h3 class="card__title">First option</h3>
+                        <p>Description this option</p>
+
+                    </div>
+                </label>
+
+                <input type="radio" name="card" id="card-2" class="radio-select">
+                <label for="card-2" class="card">
+                    <div class="card__header">
+                        <svg class="card__icon" width="30" height="30">
+                            <use href="./img/_sprite.svg#icon-team"></use>
+                        </svg>
+                    </div>
+
+                    <div class="card__body">
+
+                        <h3 class="card__title">Second option</h3>
+                        <p>Description this option</p>
+
+                    </div>
+                </label>
+
+            </div>
+            <!-- cards-wrapper -->
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit, officiis dolore quasi laboriosam
+                eius
                 accusamus esse? Facere nobis et nam, sunt obcaecati incidunt consequuntur consequatur! Veritatis magni
-                fuga reiciendis.</p>
+                fuga reiciendis.
+            </p>
         </div>
+
         <div class="modal__footer">
             <div class="btn-row">
                 <button class="btn btn--primary">Do it!</button>
                 <button class="btn ">Cancel</button>
             </div>
         </div>
-    </div>
+    </section>
 
 </body>
 
